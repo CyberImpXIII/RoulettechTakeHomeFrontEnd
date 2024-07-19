@@ -1,8 +1,7 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: SuisseInt-Regular,ui-sans-serif,Helvetica,sans-serif;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -44,4 +43,53 @@ header div>div:hover{
   font-size: 3.2rem;
   line-height: 4.8rem;
   letter-spacing: -.03rem;
+  text-align: center;
+}
+
+.image{
+  margin-bottom: 20rem;
+  margin-left: 3.6rem;
+  margin-right: 3.6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.image-text{
+  width:100%;
+  display: flex;
+}
+
+.left-text{
+  justify-content: flex-start;
+}
+
+.right-text{
+  justify-content: flex-end;
+}
+
+.double-image{
+  display: flex;
+  justify-content: space-around;
+}
+
+.center-text{
+  justify-content: center;
+}
+
+.title{
+  width:50%
+}
+
+.description{
+  width:50%;
+}
+
+img{
+  max-height: 90vh;
+}
+
+.doubleImageContainer{
+  display: flex;
+  flex-direction: column;
 }

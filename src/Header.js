@@ -6,8 +6,8 @@ const Header = () => {
           <div className="header-element hidden"></div>
         </div>
         <div className="header-right">
-          <div className="header-element">Work,</div>
-          <div className="header-element">Info</div>
+          <a href='https://github.com/CyberImpXIII' className="header-element">Work,</a>
+          <a href='https://www.instagram.com/cyberimpsounds/' className="header-element">Info</a>
         </div>
     </header>
   );
